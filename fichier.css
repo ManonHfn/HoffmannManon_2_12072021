@@ -1,0 +1,59 @@
+.logo {
+    width: 90px;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    margin: auto;
+    padding: 0px 48px;
+}
+.header-link{
+        color: black;
+        border-top: 3px solid transparent;
+        padding: 37px 25px;
+        display: inline-block;
+        text-decoration: none;
+}
+.header-link:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    display: inline-block;
+}
+.subscribe{
+    color: #0065FC;
+    font-weight: bold;
+}
+.recherche{
+    justify-content: center;
+    margin-left:70px;
+}
+.hebergements{
+font-size: 15px;
+margin: 0px;
+}
+.hebergements-describe{
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+    font-family:'Raleway', sans-serif;
+
+
+
+
+
