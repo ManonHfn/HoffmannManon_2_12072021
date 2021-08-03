@@ -248,32 +248,16 @@
     float: inline-start;
     margin-right: 300px;
 }
-.accomodation-card h3{
-    margin: 0px;
+.accomodation-card,.accomodation-card h3, .accomodation-card p{
+    margin: 0%;
+    margin-left: 5%;
 }
-.accomodation-card p{
-    margin: 0px;
-}
-.auberge{
-    width: 250px;
-    height: 245px;
-    padding: 10px;
-    background-color: white;   
-    border-top-left-radius: 35px; 
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2); 
-}
-.img-cannebiere{
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    cursor: pointer;
 }
-.hotelduport{
+.card-hebergements{
     width: 250px;
     height: 245px;
     padding: 10px;
@@ -283,102 +267,21 @@
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
+
 }
-.img-hotel{
+.img-hebergements{
     width: 100%;
     height: 68%;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    overflow: hidden;
-    transition: all 0.2s;
-    cursor: pointer;
-}
-.hotellesmouettes{
-    width: 250px;
-    height: 245px;
-    padding: 10px;
-    background-color: white;   
-    border-top-left-radius: 35px; 
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
-}
-.img-hotellesmouettes{
-    width: 100%;
-    height: 68%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
-    cursor: pointer;
-}
-.hoteldelamer{
-    width: 250px;
-    height: 245px;
-    padding: 10px;
-    background-color: white;   
-    border-top-left-radius: 35px; 
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
-}
-.img-hoteldelamer{
-    width: 100%;
-    height: 68%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
-    cursor: pointer;
-}
-.aubergelepanier{
-    width: 250px;
-    height: 245px;
-    padding: 10px;
-    background-color: white;   
-    border-top-left-radius: 35px; 
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
-}
-.img-aubergelepanier{
-    width: 100%;
-    height: 68%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
-    cursor: pointer;
-}
-.hotelchezamina{
-    width: 250px;
-    height: 245px;
-    padding: 10px;
-    background-color: white;   
-    border-top-left-radius: 35px; 
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
-}
-.img-hotelchezamina{
-    width: 100%;
-    height: 68%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
     cursor: pointer;
 }
 .buttom-more{
-   float: inline-start;
    font-weight: bold;
    font-size: 18px;
+   display: flex;
+   justify-content: left;
 }
 .les-plus-populaires{
     background-color: #EFEFEF;
@@ -396,18 +299,19 @@
 .title-section2{
     display: flex;
     justify-content: left;
-    margin-left: 45px;
+    margin-left: 10%;
 }
 .icone-chart {
     color: black;
     font-weight: bolder;
     font-size: 25px;
+    margin-top: 5%;
+    margin-left: 40%;
     display: flex;
-    justify-content: right;
 }
 .card-hotel-popularity{
-    width: 470px;
-    height: 150px;
+    width: 80%;
+    height: 50%;
     padding: 10px;
     background-color: white;   
     border-top-left-radius: 35px; 
@@ -425,34 +329,20 @@
 }
 .etoile2{
     color:#EFEFEF;
+}
+.stars{
     display: flex;
+    align-items: left;
+    margin-left: 5%;
 }
-.img-hotellesoleil{
-    width: 125px;
-    height: 130px;
+.img-popularity{
+    width: 30%;
+    height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
     cursor: pointer;
-}
-.img-aucoeurdeleau{
-    width: 125px;
-    height: 135px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
-    cursor: pointer;
-}
-.img-hoteltoutbleu{
-    width: 125px;
-    height: 130px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    overflow: hidden; 
-    transition: all 0.2s;
-    cursor: pointer;
+    object-fit: cover;
+    overflow: hidden;
 }
 .accomodation-card-popularity,.accomodation-card-popularity p,.accomodation-card-popularity h3{
     margin: 0px; 
@@ -468,7 +358,7 @@
     display:flex;
     flex-wrap: wrap;
 }
-.vieux-port{
+.card-activitys{
     width: 300px;
     height: 450px;
     padding: 10px;
@@ -481,9 +371,30 @@
     margin-bottom: 60px;
     box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
 }
-.img-vieuxport{
+.img-activitys{
     width: 100%;
     height: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden; 
+    cursor: pointer;
+}
+.card-activitys2{
+    width: 20%;
+    height: 5%;
+    padding: 10px;
+    background-color: white;   
+    border-top-left-radius: 35px; 
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-left: 45px;
+    margin-bottom: 60px;
+    box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
+}
+.img-activitys2{
+    width: 80%;
+    height: 30%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden; 
