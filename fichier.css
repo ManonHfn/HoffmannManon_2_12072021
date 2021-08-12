@@ -87,6 +87,7 @@
     display: flex;
     list-style: none;
     font-size: 20px;
+    cursor: pointer
 }
 .icone{
     background-color: #D6E7FF;
@@ -217,7 +218,7 @@
 }
 .card-body-popularity{
     width: 80%;
-    padding: 2%;
+    padding: 1%;
     background-color: white;   
     border-radius: 20px;
     margin-left: 45px;
@@ -363,4 +364,8 @@ footer{
     font-size: 15px;
     margin-bottom: 25px;
 }
+@media screen (min-width: 780px) and (max-width: 979px){
+    .logo { float: none; width: 30%; margin-left: 5%}
+    .header-link {float: none; width: auto; margin-left: 10%;}
+        
 
