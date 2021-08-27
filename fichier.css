@@ -8,13 +8,12 @@
  .logo {
     width: 90px;
     margin: 20px;
-    margin-right: 980px;
+    margin-right: 950px;
  }                        
  .header {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    margin-left: 2%;
  }                 
  .header-link {
      color: black;
@@ -293,8 +292,6 @@
     border-radius: 20px;
     box-shadow: 0px 3px 16px 5px rgba(0,0,0,0.2);
 }
-
-
 .img-activitys{
     width: 100%;
     height: 90%;
@@ -542,6 +539,22 @@ footer{
     .recherche{
         width: 100%;
     }
+    .button-search{
+        display: none;
+    }
+    .button-search-icone{
+        display: flex;
+        width: 70px;
+        border-radius: 10px;
+        background-color:#0065FC;
+        height: 40px;
+        border-left: none;
+        border: 1px solid #0065FC;
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
     .hebergements{
         display: flex;
         justify-content: left;
@@ -680,5 +693,172 @@ footer{
         margin: 0px 0px 0px 20px;
     }
 }
-        
-
+    @media all and (min-width: 834px) and (max-width: 1112px){
+        .card-placement{
+            width: 50%;
+        }
+        .first-section{
+            flex-direction: column-reverse;
+        }
+        .recherche{
+            width: 100%;
+        }
+        .button-search{
+            display: none;
+        }
+        .button-search-icone{
+            display: flex;
+            width: 70px;
+            border-radius: 10px;
+            background-color:#0065FC;
+            height: 40px;
+            border-left: none;
+            border: 1px solid #0065FC;
+            font-size: 20px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        .hebergements{
+            display: flex;
+            justify-content: left;
+            font-size: 19px;
+        }
+        .hebergements-describe{
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        .logo{
+            order: 1;
+            margin-right: 0%;
+        }
+        .header nav{
+            order: 3;
+            width: 100%;
+        }
+        .subscribe{
+            order: 2;
+            margin-right: 20px;
+        }
+        .header nav .header-link{
+            width: 49%;
+            text-align: center;
+            border-bottom: 3px solid #EFEFEF;
+        }
+        .header-link{
+            padding: 0;
+        }
+        .header-link:hover{
+            color: #0065FC;
+            border-bottom: 3px solid #0065FC;
+        }
+        .header{
+            justify-content: space-between;
+            flex: 1 0 100%;
+            flex-wrap: wrap;
+        }
+        .search{
+            width: 250px;
+        }
+        .button-search{
+            width: 50px;
+            border-radius: 12px;
+        }
+        .button-search-icone{
+            width: 50px;
+        }
+        .icone-search{
+            width: 40px;
+        }
+        .filter{
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: normal;
+            padding: 0%;
+            margin: 0%;
+        }
+        .filters{
+            display: initial;
+            margin: 15px 0px 0px 5px;
+        }
+        .filters p{
+            margin-top: 0;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        .infos{
+            font-size: 15px;
+        }
+        .logo-body{
+            margin-left:5px;
+            margin-bottom: 10px;
+        }
+        .accomodation-logo{
+            margin-left:15px;
+            margin-right:20px;
+            font-size: 15px;
+        }
+        .first-section{
+            flex-direction: column-reverse;
+        }
+        .les-plus-populaires{
+            width: 100%;
+            margin: 0px;
+        }
+        .card-body-popularity{
+            width: 85%;
+            margin-left: 30px;
+        }
+        .hebergements-a-marseille{
+            width: 100%;
+            background: none;
+            margin-left: 0px;
+            margin-bottom: 15px;
+        }
+        .card-placement{
+            width: 100%;
+            padding: 0px;
+            margin-bottom: 10px;
+        }
+        .activites-a-marseille .card-placement{
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 100%;
+            height: 50%;
+        }
+        .activitys-responsive{
+            width: auto;
+            height: 250px;
+        }
+        .img-activitys{
+            height: 80%;
+        }
+        .iles-du-frioul{
+            margin: 0;
+        }
+        .fort-de-pomegues{
+            margin-bottom: 10px;
+        }
+        .card-activitys-right{
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .about{
+            margin: 0px 0px 0px 20px;
+        }
+        .accomodations{
+            margin: 0px 0px 0px 20px;
+        }
+        .help{
+            margin: 0px 0px 0px 20px;
+        }
+    }
+    @media all and (min-width: 900px) and (max-width: 1400px){
+        .logo{
+            margin-right: 890px;
+        }
+    }
