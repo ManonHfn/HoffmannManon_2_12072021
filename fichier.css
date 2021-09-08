@@ -891,3 +891,8 @@ footer{
             margin-right: 790px;
         }
     }
+    @media all and (min-width: 1320px) and (max-width: 1480px){
+        .logo{
+            margin-right: 790px;
+        }
+    }
