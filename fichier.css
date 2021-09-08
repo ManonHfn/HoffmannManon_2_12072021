@@ -600,7 +600,7 @@ footer{
         flex-wrap: wrap;
     }
     .search{
-        width: 250px;
+        width: 600px;
     }
     .button-search{
         width: 50px;
@@ -645,7 +645,10 @@ footer{
     }
     .les-plus-populaires{
         width: 100%;
-        margin: 0px;
+        margin-left: 0px;
+    }
+    .stars-popularity{
+        margin-top: 40px;
     }
     .title-section2{
         padding-left: 30px;
@@ -653,6 +656,9 @@ footer{
     .card-body-popularity{
         width: 85%;
         margin-left: 30px;
+    }
+    .all-card-popularity{
+        padding-left: 30px;
     }
     .title-section1{
         padding-left: 20px;
@@ -667,9 +673,12 @@ footer{
         padding-left: 20px;
     }
     .card-placement{
-        width: 100%;
+        width: 30%;
         padding: 0px;
         margin-bottom: 10px;
+    }
+    .all-card{
+        justify-content: space-between;
     }
     .title-activites{
         padding-left: 35px;
@@ -888,7 +897,7 @@ footer{
     }
     @media all and (min-width: 900px) and (max-width: 1400px){
         .logo{
-            margin-right: 790px;
+            margin-right: 650px;
         }
     }
     @media all and (min-width: 1320px) and (max-width: 1480px){
