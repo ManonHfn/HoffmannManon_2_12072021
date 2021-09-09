@@ -245,7 +245,7 @@
     display: flex;
     align-items: flex-start;
     margin-left: 2%;
-    margin-top:20%
+    padding-top: 30px;
 }
 .img-popularity{
     width: 130px;
@@ -647,9 +647,6 @@ footer{
         width: 100%;
         margin-left: 0px;
     }
-    .stars-popularity{
-        margin-top: 40px;
-    }
     .title-section2{
         padding-left: 30px;
     }
@@ -834,14 +831,14 @@ footer{
             margin: 0px;
         }
         .card-body-popularity{
-            width: 92%;
+            width: 100%;
             margin-left: 30px;
         }
         .stars-popularity{
             margin-top: 25px;
         }
         .hebergements-a-marseille{
-            width: 100%;
+            width: 85%;
             background: none;
             margin-left: 0px;
             margin-bottom: 15px;
