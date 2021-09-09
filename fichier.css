@@ -2,6 +2,7 @@
     box-sizing: border-box;
  }                     
  body {
+    margin: 0px;
     font-family: 'Raleway', sans-serif;
  }                       
  .logo {
@@ -529,11 +530,6 @@ footer{
     }
 }
 @media all and (min-width: 180px) and (max-width: 768px){
-    .header-link:hover{
-        color: #0065FC;
-        border-bottom: 2px solid #0065FC;
-        border-top: none;
-    }
     .card-placement{
         width: 50%;
     }
@@ -542,8 +538,6 @@ footer{
     }
     .recherche{
         width: 100%;
-        margin-left: 0px;
-        padding-left: 20px;
     }
     .button-search{
         display: none;
@@ -647,33 +641,31 @@ footer{
         width: 100%;
         margin-left: 0px;
     }
-    .title-section2{
-        padding-left: 30px;
-    }
     .card-body-popularity{
         width: 85%;
         margin-left: 30px;
     }
+<<<<<<< HEAD
     .all-card-popularity{
         padding-left: 30px;
     }
     .title-section1{
         padding-left: 20px;
     }
+=======
+>>>>>>> parent of dc12148 (rectification erreurs après soutenance)
     .hebergements-a-marseille{
         width: 100%;
         background: none;
         margin-left: 0px;
         margin-bottom: 15px;
     }
-    .buttom-more{
-        padding-left: 20px;
-    }
     .card-placement{
         width: 30%;
         padding: 0px;
         margin-bottom: 10px;
     }
+<<<<<<< HEAD
     .all-card{
         justify-content: space-between;
     }
@@ -681,6 +673,8 @@ footer{
         padding-left: 35px;
         margin-left: 0vh;
     }
+=======
+>>>>>>> parent of dc12148 (rectification erreurs après soutenance)
     .activites-a-marseille .card-placement{
         flex-direction: column;
         flex-wrap: nowrap;
@@ -718,7 +712,7 @@ footer{
         margin: 0px 0px 0px 20px;
     }
 }
-    @media all and (min-width: 770px) and (max-width: 1112px){
+    @media all and (min-width: 834px) and (max-width: 1112px){
         .card-placement{
             width: 50%;
         }
@@ -831,11 +825,12 @@ footer{
             margin: 0px;
         }
         .card-body-popularity{
+<<<<<<< HEAD
             width: 100%;
+=======
+            width: 85%;
+>>>>>>> parent of dc12148 (rectification erreurs après soutenance)
             margin-left: 30px;
-        }
-        .stars-popularity{
-            margin-top: 25px;
         }
         .hebergements-a-marseille{
             width: 85%;
@@ -844,19 +839,15 @@ footer{
             margin-bottom: 15px;
         }
         .card-placement{
-            width: 32%;
+            width: 100%;
+            padding: 0px;
             margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            padding-left: 25px;
-
         }
         .activites-a-marseille .card-placement{
             flex-direction: column;
             flex-wrap: nowrap;
             width: 100%;
             height: 50%;
-            margin-bottom: 0px;
         }
         .activitys-responsive{
             width: auto;
@@ -873,10 +864,7 @@ footer{
         }
         .card-activitys-right{
             margin-top: 0;
-            margin-bottom: 40px;
-        }
-        .fort-de-pomegues{
-            margin-bottom: 40px;
+            margin-bottom: 10px;
         }
         footer{
             display: flex;
@@ -894,6 +882,10 @@ footer{
     }
     @media all and (min-width: 900px) and (max-width: 1400px){
         .logo{
+<<<<<<< HEAD
             margin-right: 650px;
+=======
+            margin-right: 890px;
+>>>>>>> parent of dc12148 (rectification erreurs après soutenance)
         }
     }
