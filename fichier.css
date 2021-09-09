@@ -639,28 +639,19 @@ footer{
     }
     .les-plus-populaires{
         width: 100%;
-<<<<<<< HEAD
         margin-left: 0px;
-=======
         margin: 0px;
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
     }
     .card-body-popularity{
         width: 85%;
         margin-left: 30px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     .all-card-popularity{
         padding-left: 30px;
     }
     .title-section1{
         padding-left: 20px;
     }
-=======
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
-=======
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
     .hebergements-a-marseille{
         width: 100%;
         background: none;
@@ -672,19 +663,13 @@ footer{
         padding: 0px;
         margin-bottom: 10px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     .all-card{
         justify-content: space-between;
     }
     .title-activites{
         padding-left: 35px;
-        margin-left: 0vh;
+        margin-left: 0px;
     }
-=======
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
-=======
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
     .activites-a-marseille .card-placement{
         flex-direction: column;
         flex-wrap: nowrap;
@@ -835,15 +820,7 @@ footer{
             margin: 0px;
         }
         .card-body-popularity{
-<<<<<<< HEAD
-<<<<<<< HEAD
-            width: 100%;
-=======
             width: 85%;
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
-=======
-            width: 85%;
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
             margin-left: 30px;
         }
         .hebergements-a-marseille{
@@ -896,14 +873,6 @@ footer{
     }
     @media all and (min-width: 900px) and (max-width: 1400px){
         .logo{
-<<<<<<< HEAD
-<<<<<<< HEAD
             margin-right: 650px;
-=======
-            margin-right: 890px;
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
-=======
-            margin-right: 890px;
->>>>>>> parent of dc12148 (rectification erreurs après soutenance)
         }
     }
