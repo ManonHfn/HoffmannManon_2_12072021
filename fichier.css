@@ -399,6 +399,12 @@ footer{
         text-align: center;
         border-bottom: 3px solid #EFEFEF;
     }
+    .header-link:hover{
+     color: #0065FC;
+     border-bottom: 2px solid #0065FC;
+     border-top: none;
+    display: inline-block;
+    }
     .header-link{
         padding: 0;
     }
@@ -721,6 +727,9 @@ footer{
         .auberge{
             font-size: 13px;
         }
+        .header-link:hover{
+
+        }
     }
     @media all and (min-width: 770px) and (max-width: 1124px){
         .card-placement{
@@ -780,6 +789,7 @@ footer{
         .header-link:hover{
             color: #0065FC;
             border-bottom: 3px solid #0065FC;
+            border-top: none;
         }
         .header{
             justify-content: space-between;
@@ -889,5 +899,10 @@ footer{
     @media all and (min-width: 900px) and (max-width: 1400px){
         .logo{
             margin-right: 650px;
+        }
+    }
+    @media all and (min-width: 480px) and (max-width: 1128px){
+        .all-card{
+            padding-left: 90px;
         }
     }
